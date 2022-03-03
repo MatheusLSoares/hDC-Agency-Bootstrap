@@ -2,6 +2,7 @@
 
 ::-webkit-scrollbar {
     width: 10px;
+    
 }
 
 ::-webkit-scrollbar-track {
@@ -27,7 +28,7 @@ body {
 }
 
 p, li {
-    color: #444;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -73,19 +74,60 @@ header, .navbar {
     margin-right: 10px;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Slider */
+
 .carousel-item {
-    height: 32rem;
+    height: 90vh;
     background: #777;
     color: white;
     position:relative;
 }
 
+.containerSlide {
+    padding: 0;
+}
 
+#mainSlider .carousel-caption {
+    top: 30%;
+}
 
+#mainSlider .carousel-caption h5 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
 
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
 
+.main-btn {
+    text-decoration: none;
+    background-color: #65daf9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .8s;
+}
 
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
+.main-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65daf9;
+}
+
+.carousel-indicators .active {
+    background-color: #65daf9;
 }
