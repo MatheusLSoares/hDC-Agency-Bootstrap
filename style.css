@@ -1,0 +1,91 @@
+/* Gerais */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 30px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Navigation bar*/
+
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;   
+}
+
+#logo {
+    width: 75px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-links{
+    padding: 1rem .8rem;
+}
+
+.nav-item {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position:relative;
+}
+
+
+
+
+
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
